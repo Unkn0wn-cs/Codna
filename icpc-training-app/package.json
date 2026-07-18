@@ -1,0 +1,16 @@
+{
+  "name": "icpc-club-training-system",
+  "version": "1.0.0",
+  "description": "ICPC club website with real login, scoring, leaderboard, and guided coaching — Netlify Functions + Netlify Blobs backend.",
+  "private": true,
+  "scripts": {
+    "dev": "npx netlify-cli dev",
+    "deploy": "npx netlify-cli deploy --prod"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0",
+    "bcryptjs": "^2.4.3",
+    "cookie": "^0.6.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
